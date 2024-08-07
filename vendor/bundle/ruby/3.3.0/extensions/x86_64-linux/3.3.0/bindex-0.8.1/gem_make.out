@@ -1,0 +1,18 @@
+current directory: /home/pusher/RubymineProjects/TailwindTemplates/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/home/pusher/.rvm/rubies/ruby-3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/pusher/RubymineProjects/TailwindTemplates/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240807-35381-tz0vtu sitelibdir\=./.gem.20240807-35381-tz0vtu clean
+
+current directory: /home/pusher/RubymineProjects/TailwindTemplates/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240807-35381-tz0vtu sitelibdir\=./.gem.20240807-35381-tz0vtu
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/pusher/RubymineProjects/TailwindTemplates/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240807-35381-tz0vtu sitelibdir\=./.gem.20240807-35381-tz0vtu install
+/usr/bin/install -m 0755 cruby.so ./.gem.20240807-35381-tz0vtu/skiptrace/internal
+
+current directory: /home/pusher/RubymineProjects/TailwindTemplates/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240807-35381-tz0vtu sitelibdir\=./.gem.20240807-35381-tz0vtu clean
