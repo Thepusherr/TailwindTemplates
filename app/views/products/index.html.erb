@@ -150,15 +150,14 @@
                             <div class="flex w-72 items-center rounded-t-lg border-x border-t border-solid border-gray-200 pb-[15px] pl-[52px] pr-36 pt-3.5" >
                               <div class="flex flex-grow items-center">
                                 <p>All Categories</p>
+                                <div class="z-[1] flex w-0 flex-shrink-0 items-center" >
+                                  <%= image_tag "home1/footer/all_categories.png", class: "ml-[-280.41px] h-[18px] w-[22px] flex-shrink-0" %>
+                                </div>
                               </div>
                             </div>
                           </div>
-                          <div class="z-[1] flex w-0 flex-shrink-0 items-center" >
-                            <object
-                              data="/assets/IKlbIconLayoutGrid.svg"
-                              class="ml-[-280.41px] h-[18px] w-[22px] flex-shrink-0"
-                            ></object>
-                          </div>
+                          
+                          
                         </div>
                         <div class="flex w-0 flex-shrink-0 items-center">
                           <object
@@ -232,31 +231,22 @@
                   <div class="rounded-b-lg border border-solid border-gray-200 text-sm font-medium leading-[21px]" >
                     <div class="flex items-center justify-center gap-x-24 bg-white py-[13px] pl-[18px] pr-5" >
                       <div class="flex items-center justify-center gap-x-[15px]" >
-                        <object
-                          data="/assets/AppleSvg.svg"
-                          class="h-5 w-5 flex-shrink-0"
-                        ></object>
+                        <%= image_tag "home1/footer/apple.png", class: "h-4 w-[4.6px] flex-shrink-0" %>
                         <div>Fruits &amp; Vegetables</div>
                       </div>
                       <div class="flex flex-col items-center pt-[0.01px]">
-                        <object
-                          data="/assets/After1.svg"
-                          class="h-4 w-[4.6px] flex-shrink-0"
-                        ></object>
+                        <%= image_tag "home1/footer/dropdown.png", class: "h-4 w-[4.6px] flex-shrink-0" %>
                       </div>
                     </div>
                     <div class="flex items-center justify-center gap-x-28 bg-white py-[13px] pl-[18px] pr-5" >
                       <div class="flex items-center justify-center gap-x-[15px]" >
-                        <object
-                          data="/assets/MeatSvg.svg"
-                          class="h-5 w-5 flex-shrink-0"
-                        ></object>
+                        <%= image_tag "home1/footer/meat.png", class: "h-5 w-5 flex-shrink-0" %>
                         <div>Meats &amp; Seafood</div>
                       </div>
                       <div class="flex flex-col items-center pt-[0.01px]">
                         <object
                           data="/assets/After1.svg"
-                          class="h-4 w-[4.6px] flex-shrink-0"
+                          class=
                         ></object>
                       </div>
                     </div>
@@ -269,10 +259,7 @@
                         <div>Breaksfast &amp; Dairy</div>
                       </div>
                       <div class="flex flex-col items-center pt-[0.01px]">
-                        <object
-                          data="/assets/After1.svg"
-                          class="h-4 w-[4.6px] flex-shrink-0"
-                        ></object>
+                        <%= image_tag "home1/footer/dropdown.png", class: "h-4 w-[4.6px] flex-shrink-0" %>
                       </div>
                     </div>
                     <div class="flex items-center justify-center gap-x-28 bg-white py-[13px] pl-[18px] pr-5" >
@@ -284,10 +271,7 @@
                         <div>Breads &amp; Bakery</div>
                       </div>
                       <div class="flex flex-col items-center pt-[0.01px]">
-                        <object
-                          data="/assets/After1.svg"
-                          class="h-4 w-[4.6px] flex-shrink-0"
-                        ></object>
+                        <%= image_tag "home1/footer/dropdown.png", class: "h-4 w-[4.6px] flex-shrink-0" %>
                       </div>
                     </div>
                     <div class="flex items-center justify-between gap-x-[15px] self-stretch bg-white py-[13px] pl-[18px] pr-5" >
@@ -329,10 +313,7 @@
                         <div>Beverages</div>
                       </div>
                       <div class="flex flex-col items-center pt-[0.01px]">
-                        <object
-                          data="/assets/After1.svg"
-                          class="h-4 w-[4.6px] flex-shrink-0"
-                        ></object>
+                        <%= image_tag "home1/footer/dropdown.png", class: "h-4 w-[4.6px] flex-shrink-0" %>
                       </div>
                     </div>
                     <div class="flex items-center gap-x-[15px] self-stretch bg-white py-[13px] pl-[18px] pr-40" >
@@ -3054,10 +3035,7 @@
                   <div class="flex flex-wrap items-center justify-end gap-x-36 gap-y-[11px] rounded-lg border border-solid border-gray-300 bg-white pl-[15px] text-sm tracking-[-0.28px] drop-shadow-lg min-[1910px]:flex-nowrap" >
                     <div class="flex items-center justify-center gap-x-[5px] text-center" >
                       <div class="flex flex-col items-center pt-0.5">
-                        <object
-                          data="/assets/Form.svg"
-                          class="h-5 w-5 flex-shrink-0 text-center"
-                        ></object>
+                        <%= render inline: Rails.root.join('app/assets/images/home1/footer/mail.svg').read, class: "h-5 w-5 flex-shrink-0 text-center" %>
                       </div>
                       <div class="text-left leading-[normal] text-gray-400">
                         Enter your email address
@@ -3092,10 +3070,7 @@
                       <div class="flex items-end px-0.5 pt-3.5">
                         <div class="flex items-start justify-center gap-x-[22px]" >
                           <div class="flex flex-col items-center justify-end pt-1" >
-                            <object
-                              data="/assets/ListItem.svg"
-                              class="h-7 w-7 flex-shrink-0"
-                            ></object>
+                            <%= image_tag "home1/footer/phone.png", class: "h-7 w-7 flex-shrink-0" %>
                           </div>
                           <div class="flex flex-col items-start gap-y-[5.5px] text-gray-900" >
                             <div class="text-center text-xs leading-[18px]">
@@ -3110,10 +3085,7 @@
                       <div class="flex items-end px-0.5 pt-3.5">
                         <div class="flex items-center justify-center gap-x-[22px]" >
                           <div class="flex h-7 w-7 flex-shrink-0 flex-col items-center pb-[0.5px]" >
-                            <object
-                              data="/assets/ListItem1.svg"
-                              class="h-7 w-7 flex-shrink-0"
-                            ></object>
+                            <%= render inline: Rails.root.join('app/assets/images/home1/footer/mail.svg').read, class: "h-7 w-7 flex-shrink-0" %>
                           </div>
                           <div class="flex flex-col items-start gap-y-[4.5px] text-gray-900" >
                             <div class="text-xs leading-[18px]">
@@ -3175,7 +3147,9 @@
                       </div>
                       <div class="flex flex-col items-start justify-end gap-y-2.5 pt-2.5 text-[10px] font-medium leading-[15px] text-gray-500" >
                         <div class="flex items-center justify-center gap-x-[15px]" >
-                          <div class="bg-link-google-play-button-dark-png h-10 max-h-full w-[120px] max-w-full flex-shrink-0 bg-no-repeat [background-position:0px_0px] [background-size:100%_100%]" ></div>
+                          <div class="bg-link-google-play-button-dark-png h-10 max-h-full w-[120px] max-w-full flex-shrink-0 bg-no-repeat [background-position:0px_0px] [background-size:100%_100%]" >
+                            <%= render inline: Rails.root.join('app/assets/images/home1/footer/googleplay.svg').read %>
+                          </div>
                           <div class="flex-grow pb-px [max-width:85px]">
                             <div>
                               <span
@@ -3186,7 +3160,9 @@
                           </div>
                         </div>
                         <div class="flex items-center justify-center gap-x-[15px]" >
-                          <div class="bg-link-apple-store-button-dark-png h-10 max-h-full w-[120px] max-w-full flex-shrink-0 bg-no-repeat [background-position:0px_0px] [background-size:100%_100%]" ></div>
+                          <div class="bg-link-apple-store-button-dark-png h-10 max-h-full w-[120px] max-w-full flex-shrink-0 bg-no-repeat [background-position:0px_0px] [background-size:100%_100%]" >
+                            <%= render inline: Rails.root.join('app/assets/images/home1/footer/appstore.svg').read %>
+                          </div>
                           <div class="flex-grow pb-px [max-width:85px]">
                             <div>
                               <span
@@ -3204,28 +3180,16 @@
                       </div>
                       <div class="flex items-center gap-x-1">
                         <div class="flex h-9 w-9 flex-shrink-0 flex-col items-center justify-center rounded-md bg-white p-[11px]" >
-                          <object
-                            data="/assets/Icon19.svg"
-                            class="h-[15px] w-[15px] flex-shrink-0"
-                          ></object>
+                          <%= render inline: Rails.root.join('app/assets/images/home1/footer/fb.svg').read, class: "h-[15px] w-[15px] flex-shrink-0" %>
                         </div>
                         <div class="flex h-9 w-9 flex-shrink-0 flex-col items-center justify-center rounded-md bg-white p-[11px]" >
-                          <object
-                            data="/assets/Icon20.svg"
-                            class="h-[15px] w-[15px] flex-shrink-0"
-                          ></object>
+                          <%= render inline: Rails.root.join('app/assets/images/home1/footer/twitter.svg').read, class: "h-[15px] w-[15px] flex-shrink-0" %>
                         </div>
                         <div class="flex h-9 w-9 flex-shrink-0 flex-col items-center justify-center rounded-md bg-white p-2.5" >
-                          <object
-                            data="/assets/Icon21.svg"
-                            class="h-4 w-4 flex-shrink-0"
-                          ></object>
+                          <%= render inline: Rails.root.join('app/assets/images/home1/footer/inst_red.svg').read, class: "h-4 w-4 flex-shrink-0" %>
                         </div>
                         <div class="flex h-9 w-9 flex-shrink-0 flex-col items-center justify-center rounded-md bg-white p-[11px]" >
-                          <object
-                            data="/assets/Icon22.svg"
-                            class="h-[15px] w-[15px] flex-shrink-0"
-                          ></object>
+                          <%= render inline: Rails.root.join('app/assets/images/home1/footer/linkedin.svg').read, class: "h-[15px] w-[15px] flex-shrink-0" %>
                         </div>
                       </div>
                     </div>
@@ -3239,31 +3203,15 @@
                       <span
                         >Copyright 2024 © Grogin WooCommerce WordPress Theme.
                         All right reserved. Powered by
-                        <span class="text-center font-semibold text-[darkslateblue]" >KLBTheme.</span
-                        ></span
-                      >
+                        <span class="text-center font-semibold text-[darkslateblue]" >KLBTheme.</span>
+                      </span>
                     </div>
                     <div class="flex flex-wrap items-center gap-x-2.5 gap-y-[6.5px] min-[1910px]:flex-nowrap" >
-                      <object
-                        data="/assets/ListItemSvg.svg"
-                        class="h-[13px] w-9 flex-shrink-0"
-                      ></object
-                      ><object
-                        data="/assets/ListItemSvg1.svg"
-                        class="h-[15px] w-6 flex-shrink-0"
-                      ></object
-                      ><object
-                        data="/assets/ListItemSvg2.svg"
-                        class="h-[15px] w-[53px] flex-shrink-0"
-                      ></object
-                      ><object
-                        data="/assets/ListItemSvg3.svg"
-                        class="h-[15px] w-10 flex-shrink-0"
-                      ></object
-                      ><object
-                        data="/assets/ListItemSvg4.svg"
-                        class="h-[15px] w-16 flex-shrink-0"
-                      ></object>
+                      <%= render inline: Rails.root.join('app/assets/images/home1/footer/visa.svg').read, class: "h-[13px] w-9 flex-shrink-0" %>
+                      <%= render inline: Rails.root.join('app/assets/images/home1/footer/mastercard.svg').read, class: "h-[15px] w-6 flex-shrink-0" %>
+                      <%= image_tag "home1/footer/paypal.png", class: "h-[15px] w-[53px] flex-shrink-0" %>
+                      <%= image_tag "home1/footer/skrill.png", class: "h-[15px] w-10 flex-shrink-0" %>
+                      <%= render inline: Rails.root.join('app/assets/images/home1/footer/klarna.svg').read, class: "h-[15px] w-16 flex-shrink-0" %>
                     </div>
                   </div>
                   <div class="flex h-[17px] flex-col items-center">
