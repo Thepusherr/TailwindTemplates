@@ -23,5 +23,11 @@ module TailwindTemplates
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.assets.paths << Rails.root.join('app', 'assets', 'home1')
+
+    Dir.glob("#{Rails.root}/app/assets/images/**/").each do |path|
+      config.assets.paths << path
+    end
   end
 end
