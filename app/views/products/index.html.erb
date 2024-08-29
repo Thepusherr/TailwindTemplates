@@ -2639,7 +2639,7 @@
           </div>
         </div>
         <div class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div class="flex flex-col items-start pt-5 w-full border border-t">
+          <div class="flex flex-col grow px-5 pt-5 pb-24 border border-t border-r">
             <div class="flex gap-5 ml-5 whitespace-nowrap max-md:ml-2.5">
               <img
                 loading="lazy"
@@ -2656,25 +2656,22 @@
                   Featured
                 </div>
               </div>
+              <div class="self-end mt-12 text-xs tracking-tight leading-none text-gray-500 max-md:mt-10">
+              30
             </div>
-            <div
-              class="flex flex-col items-end pt-4 pr-5 pb-20 pl-20 text-xs tracking-tight rounded-lg border border border-solid max-md:pl-5 max-md:max-w-full"
-            >
-              <div class="mr-32 leading-none text-gray-500 max-md:mr-2.5">
-                30
-              </div>
-               <div class="object-contain mt-5 mr-36 aspect-[6.1] w-[67px] max-md:mr-2.5"> 
-                <%= render inline: Rails.root.join('app/assets/images/home1/8c61ccf900ca43b6c3defbdd963d270643c1d3b87317a821984685789046800c?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
-                
-              </div>
+            <div class="object-contain self-end mt-2.5 mr-5 aspect-[6.1] w-[67px] max-md:mr-2.5"> 
+              <%= render inline: Rails.root.join('app/assets/images/home1/8c61ccf900ca43b6c3defbdd963d270643c1d3b87317a821984685789046800c?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
+              
+            </div>
+            </div>
+             
               <div
-                class="pt-5 pb-0.5 max-w-full leading-5 border border-t text-gray-950 w-[300px] max-md:pr-5"
+              class="pt-5 pb-0.5 text-xs tracking-tight border border-t text-gray-950 max-md:pr-5"
               >
                 Save your time – save your money – shop from our
                 <br />
                 grocery store.
               </div>
-            </div>
           </div>
         </div>
       </div>
