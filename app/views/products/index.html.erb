@@ -434,12 +434,7 @@
       </div>
     </div>
   </div>
-  <div
-    class="flex gap-2 self-start text-base tracking-tight leading-none whitespace-nowrap text-gray-950"
-  >
-    <div>1</div>
-    <div>2</div>
-  </div>
+
   <div class="flex flex-col mt-9 mr-64 max-w-full w-[1380px] max-md:mr-2.5">
     <div
       class="flex flex-wrap gap-9 mr-4 ml-2.5 tracking-tight max-md:mr-2.5 max-md:max-w-full"
@@ -510,9 +505,9 @@
       </div>
     </div>
     <div
-      class="flex shrink-0 mt-4 border border-t h-[61px] max-md:max-w-full"
+      class="flex shrink-0 mt-4 border border-t max-md:max-w-full"
     ></div>
-    <div class="z-10 mx-2.5 -mt-6 max-md:max-w-full">
+    <div class="z-10 mx-2.5 mt-6 max-md:max-w-full">
       <div class="flex gap-5 max-md:flex-col">
         <div class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
           <div
@@ -635,7 +630,7 @@
         <div class="text-lg font-bold tracking-tight text-gray-950">
           New Arrivals
         </div>
-        <div class="flex-auto text-sm tracking-tight text-gray-400">
+        <div class="flex-auto my-auto text-sm tracking-tight text-gray-400">
           Dont miss this opportunity at a special discount just for this week.
         </div>
       </div>
@@ -1338,21 +1333,33 @@
               class="flex relative gap-1.5 px-3.5 py-2.5 mt-5 leading-4 text-center bg-white border border border-solid rounded-[999px] text-neutral-800"
             >
               <div class="grow">Shop Now</div>
-               <div class="object-contain shrink-0 aspect-[1.36] w-[19px]"> 
-                <%= render inline: Rails.root.join('app/assets/images/home1/8543c6a12a0c428efcffbbf2050f1993b7c8da593c5990f2a8fc42ae55bdf2a6?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
-                
+                <div class="object-contain shrink-0 aspect-[1.36] w-[19px]"> 
+                  <%= render inline: Rails.root.join('app/assets/images/home1/8543c6a12a0c428efcffbbf2050f1993b7c8da593c5990f2a8fc42ae55bdf2a6?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="flex gap-4 self-start mt-10 ml-2.5">
-      <div class="grow text-lg font-bold tracking-tight text-gray-950">
-        Featured Products
+    <div class="flex flex-wrap gap-5 justify-between mt-8 mr-4 ml-2.5 max-md:mr-2.5 max-md:max-w-full">
+      <div class="flex flex-wrap gap-4 self-start mt-1.5">
+        <div class="grow text-lg font-bold tracking-tight text-gray-950">
+          Featured Products
+        </div>
+        <div class="flex-auto my-auto text-sm tracking-tight text-gray-400">
+          Do not miss the current offers until the end of March.
+        </div>
       </div>
-      <div class="flex-auto my-auto text-sm tracking-tight text-gray-400">
-        Do not miss the current offers until the end of March.
+      <div class="flex items-center justify-end">
+        <div class="flex h-[34px] items-center justify-center gap-x-[5.7px] rounded-[999px] border border-solid border-gray-200 bg-white px-3" >
+          <div class="text-xs font-bold leading-[42px] tracking-[-0.24px] text-zinc-800" >
+            View All
+          </div>
+          <object
+            data="/assets/IKlbIconMoveRight7.svg"
+            class="h-3.5 w-5 flex-shrink-0"
+          ></object>
+        </div>
       </div>
     </div>
     <div
@@ -1365,17 +1372,6 @@
          <div class="flex items-center justify-end">
            <div class="relative z-0 flex flex-col items-center pb-52">
              <div class="z-[1] flex flex-col items-end pr-[0.01px]">
-               <div class="flex items-center justify-end">
-                 <div class="flex h-[34px] items-center justify-center gap-x-[5.7px] rounded-[999px] border border-solid border-gray-200 bg-white px-3" >
-                   <div class="text-xs font-bold leading-[42px] tracking-[-0.24px] text-zinc-800" >
-                     View All
-                   </div>
-                   <object
-                     data="/assets/IKlbIconMoveRight7.svg"
-                     class="h-3.5 w-5 flex-shrink-0"
-                   ></object>
-                 </div>
-               </div>
                <div class="flex h-80 flex-shrink-0 flex-col items-center" >
                  <div class="-mt-2.5 flex h-80 flex-shrink-0 flex-col items-start justify-end gap-y-[3px] border-b border-solid border-gray-200 px-[15px] pt-[15px]" >
                    <div class="flex items-center justify-center pr-1.5" >
@@ -1427,7 +1423,7 @@
                                </div>
                              </div>
                              <div class="relative z-[1] flex w-[105px] flex-shrink-0 flex-col items-end pb-[76px]" >
-                               <div class="bg-link-182500x-500jpg z-[1] flex h-48 max-h-full w-48 max-w-full flex-shrink-0 flex-col items-center justify-end bg-no-repeat px-[85px] pt-44 [background-position:0px_0px] [background-size:100%_100%]" >
+                               <div class="bg-[url('firesmith.png')] z-[1] flex h-48 max-h-full w-48 max-w-full flex-shrink-0 flex-col items-center justify-end bg-no-repeat px-[85px] pt-44 [background-position:0px_0px] [background-size:100%_100%]" >
                                  <div class="flex items-center justify-center pr-2.5 text-center leading-6 text-gray-950" >
                                    <p>:</p>
                                  </div>
@@ -1627,7 +1623,7 @@
                        </div>
                      </div>
                      <div class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-white py-[5px] pl-[5.2px] pr-[5.1px]" >
-                       <div class="bg-[url('bananas')] h-[22px] w-[22px] flex-shrink-0" >
+                       <div class="bg-[url('bananas.png')] h-[22px] w-[22px] flex-shrink-0" >
                        </div>
                      </div>
                    </div>
@@ -1736,7 +1732,7 @@
              <div class="relative z-0 flex h-6 flex-shrink-0 items-end" >
                <div class="z-[1] flex h-80 items-center border-r border-solid border-gray-200 py-6 pl-6 pr-60" >
                  <div class="flex flex-col items-center pb-9">
-                   <div class="bg-link-17500x-500jpg flex h-60 max-h-full max-w-full flex-shrink-0 flex-col items-end justify-end gap-y-44 bg-no-repeat tracking-[-0.32px] [background-position:0px_0px] [background-size:100%_100%]" >
+                   <div class="bg-[url('firesmith.png')] flex h-60 max-h-full max-w-full flex-shrink-0 flex-col items-end justify-end gap-y-44 bg-no-repeat tracking-[-0.32px] [background-position:0px_0px] [background-size:100%_100%]" >
                      <div class="flex w-48 items-center justify-between gap-x-8" >
                        <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-1.5" >
                          <div class="flex flex-grow flex-col justify-center pr-[1.7px] [max-width:21px]" >
@@ -1841,7 +1837,7 @@
              <div class="flex h-64 flex-shrink-0 items-end">
                <div class="flex h-72 items-end rounded-md">
                  <div class="flex h-full w-full flex-shrink-0 flex-col items-center overflow-clip rounded-md" >
-                   <div class="bg-banner-08jpg flex max-h-full max-w-full flex-col items-start justify-center bg-no-repeat py-12 pl-[30px] pr-[351px] [background-position:0px_0px] [background-size:100%_100%]" >
+                   <div class="bg-[url('babyfood.png')] flex max-h-full max-w-full flex-col items-start justify-center bg-no-repeat py-12 pl-[30px] pr-[351px] [background-position:0px_0px] [background-size:100%_100%]" >
                      <div class="rounded-[30px] bg-orange-100 py-[3.5px] pl-2 pr-[7.5px] text-center text-xs font-semibold leading-[normal] tracking-[-0.24px] text-orange-900" >
                        Only This Week
                      </div>
@@ -1862,13 +1858,12 @@
                        <div class="flex items-center justify-center rounded-[999px] border border-solid border-gray-200 bg-white px-3 py-2" >
                          <div class="flex flex-col items-center pb-px">
                            <div class="flex w-20 items-center justify-center gap-x-[5.6px]" >
-                             <div class="flex w-14 flex-shrink-0 items-center justify-center text-center text-xs font-bold leading-[42px] tracking-[-0.24px] text-zinc-800" >
+                             <div class="flex relative w-18 flex-shrink-0 items-center justify-center text-center text-xs font-bold leading-4 tracking-[-0.24px] text-zinc-800" >
                                <p>Shop Now</p>
                              </div>
-                             <object
-                               data="/assets/IKlbIconMoveRight8.svg"
-                               class="h-3.5 w-5 flex-shrink-0"
-                             ></object>
+                             <div class="object-contain shrink-0 aspect-[1.36] w-[19px]"> 
+                               <%= render inline: Rails.root.join('app/assets/images/home1/8543c6a12a0c428efcffbbf2050f1993b7c8da593c5990f2a8fc42ae55bdf2a6?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
+                             </div>
                            </div>
                          </div>
                        </div>
@@ -1983,7 +1978,7 @@
              <div class="relative z-0 flex h-[270px] flex-shrink-0 flex-col items-center justify-end" >
                <div class="z-[1] mt-[-60px] flex h-80 flex-shrink-0 items-center border-r border-solid border-gray-200 py-6 pl-6 pr-60" >
                  <div class="flex flex-col items-center pb-9">
-                   <div class="bg-link-16500x-500jpg flex h-60 max-h-full max-w-full flex-shrink-0 flex-col items-end justify-end gap-y-44 bg-no-repeat tracking-[-0.32px] [background-position:0px_0px] [background-size:100%_100%]" >
+                   <div class="bg-[url('mouthwash.png')] flex h-60 max-h-full max-w-full flex-shrink-0 flex-col items-end justify-end gap-y-44 bg-no-repeat tracking-[-0.32px] [background-position:0px_0px] [background-size:100%_100%]" >
                      <div class="flex w-48 items-center justify-between gap-x-7" >
                        <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-1.5" >
                          <div class="flex flex-grow flex-col justify-center pr-[1.7px] [max-width:23px]" >
@@ -2089,7 +2084,7 @@
          <div class="flex h-0 flex-shrink-0 items-end justify-end">
            <div class="flex h-72 items-end rounded-md">
              <div class="flex h-full w-full flex-shrink-0 flex-col items-center overflow-clip rounded-md" >
-               <div class="bg-banner-09jpg flex max-h-full max-w-full flex-col items-start justify-center bg-no-repeat py-12 pl-[30px] pr-96 [background-position:0px_0px] [background-size:100%_100%]" >
+               <div class="bg-[url('cuptava.png')] flex max-h-full max-w-full flex-col items-start justify-center bg-no-repeat py-12 pl-[30px] pr-96 [background-position:0px_0px] [background-size:100%_100%]" >
                  <div class="rounded-[30px] bg-orange-100 py-[3.5px] pl-2 pr-[7.5px] text-center text-xs font-semibold leading-[normal] tracking-[-0.24px] text-orange-900" >
                    Only This Week
                  </div>
@@ -2110,13 +2105,12 @@
                    <div class="flex items-center justify-center rounded-[999px] border border-solid border-gray-200 bg-white px-3 py-2" >
                      <div class="flex flex-col items-center pb-px">
                        <div class="flex w-20 items-center justify-center gap-x-[5.6px]" >
-                         <div class="flex w-14 flex-shrink-0 items-center justify-center text-center text-xs font-bold leading-[42px] tracking-[-0.24px] text-zinc-800" >
-                           <p>Shop Now</p>
-                         </div>
-                         <object
-                           data="/assets/IKlbIconMoveRight8.svg"
-                           class="h-3.5 w-5 flex-shrink-0"
-                         ></object>
+                        <div class="flex relative w-18 flex-shrink-0 items-center justify-center text-center text-xs font-bold leading-4 tracking-[-0.24px] text-zinc-800" >
+                          <p>Shop Now</p>
+                        </div>
+                        <div class="object-contain shrink-0 aspect-[1.36] w-[19px]"> 
+                          <%= render inline: Rails.root.join('app/assets/images/home1/8543c6a12a0c428efcffbbf2050f1993b7c8da593c5990f2a8fc42ae55bdf2a6?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
+                        </div>
                        </div>
                      </div>
                    </div>
@@ -2129,16 +2123,26 @@
      </div>
       </div>
     </div>
-    <div class="flex gap-4 self-start mt-10 ml-2.5">
-      <div class="text-lg font-bold tracking-tight text-gray-950">
-        Best Sellers
+    <div class="flex flex-wrap gap-5 justify-between mt-8 mr-4 ml-2.5 max-md:mr-2.5 max-md:max-w-full">
+      <div class="flex flex-wrap gap-4 self-start mt-1.5">
+        <div class="text-lg font-bold tracking-tight text-gray-950">
+          Best Sellers
+        </div>
+        <div class="flex-auto my-1 text-sm tracking-tight text-gray-400">
+          Some of the new products arriving this weeks
+        </div>
       </div>
-      <div class="flex-auto text-sm tracking-tight text-gray-400">
-        Some of the new products arriving this weeks
+    <div
+      class="flex gap-1.5 px-3.5 py-2.5 text-xs font-bold tracking-tight leading-4 text-center bg-white border border border-solid rounded-[999px] text-neutral-800"
+    >
+      <div class="grow my-auto">View All</div>
+      <div class="object-contain shrink-0 w-5 aspect-[1.43]" >
+        <%= render inline: Rails.root.join('app/assets/images/home1/041c8dd814fb96059ddb9a7e317481512c4fcb9c529297b6224dc1e7ed5e6878?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
       </div>
     </div>
+    </div>
     <div
-      class="flex relative z-10 flex-col pt-6 pb-96 mx-2.5 mt-1.5 rounded-lg min-h-[829px] max-md:pb-24 max-md:max-w-full"
+      class="flex relative z-10 flex-col pt-6 mx-2.5 mt-1.5 rounded-lg min-h-[829px] max-md:pb-24 max-md:max-w-full"
     >
                   
       <div class="flex w-full border-b border-solid border-gray-200 pr-[15px]">
@@ -2147,7 +2151,7 @@
           <div class="flex flex-grow flex-wrap items-center justify-center gap-x-[15px] gap-y-[15px] min-[1350px]:flex-nowrap" >
             <div class="flex flex-col items-start justify-center gap-y-[9.2px] self-stretch border-r border-solid border-gray-200 px-[15px] pb-[15px] pt-6 font-medium" >
               <div class="flex items-center justify-center self-stretch">
-                <div class="bg-link-1137500x-500jpg flex h-48 max-h-full w-48 max-w-full flex-shrink-0 items-center justify-end gap-x-36 bg-no-repeat pb-44 [background-position:0px_0px] [background-size:100%_100%]" >
+                <div class="bg-[url('1-137-500x500.png')] flex h-48 max-h-full w-48 max-w-full flex-shrink-0 items-center justify-end gap-x-36 bg-no-repeat pb-44 [background-position:0px_0px] [background-size:100%_100%]" >
                   <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-[5px]" >
                     <div class="flex flex-grow flex-col justify-center pb-px pr-[1.7px] [max-width:22px]" >
                       <div class="flex items-center justify-center text-center text-[10px] font-extrabold uppercase leading-[0px] tracking-[-0.32px] text-red-50" >
@@ -2194,24 +2198,24 @@
                   </div>
                 </div>
               </div>
-              <div class="flex flex-col items-center pt-[2.8px]">
-                <button class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5 text-left" >
-                  <div class="flex flex-grow items-center justify-between gap-x-6 [max-width:193px]" >
-                    <div class="flex w-16 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
-                      <p>Add to cart</p>
+              <div class="flex flex-col items-center justify-end pt-[6.8px]" >
+                <div class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5" >
+                  <div class="flex flex-grow items-center justify-between gap-x-4 [max-width:178px]" >
+                    <div class="flex w-24 h-6 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
+                      Add to cart
                     </div>
                     <object
-                      data="/assets/IKlbIconPlus.svg"
+                      data="/assets/IKlbIconPlus6.svg"
                       class="h-4 w-[22px] flex-shrink-0"
                     ></object>
                   </div>
-                </button>
+                </div>
               </div>
             </div>
             <div class="flex flex-col items-center justify-center pt-2.5">
               <div class="flex w-56 flex-col items-center gap-y-[9.2px] font-medium" >
                 <div class="flex items-center justify-center">
-                  <div class="bg-link-1500x-500jpg flex h-52 max-h-full w-52 max-w-full flex-shrink-0 flex-col items-center justify-center bg-no-repeat [background-position:0px_0px] [background-size:100%_100%]" >
+                  <div class="bg-[url('link-19500x-500jpg')] flex h-52 max-h-full w-52 max-w-full flex-shrink-0 flex-col items-center justify-center bg-no-repeat [background-position:0px_0px] [background-size:100%_100%]" >
                     <div class="mb-[-15px] mr-[2.5px] flex h-52 w-52 flex-shrink-0 items-start justify-between gap-x-6 pt-1" >
                       <div class="flex flex-col items-start gap-y-40 text-center text-[10px] font-extrabold uppercase leading-[0px] tracking-[-0.32px]" >
                         <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-1.5" >
@@ -2283,22 +2287,22 @@
                     </div>
                   </div>
                 </div>
-                <div class="flex flex-col items-center pt-[2.8px]">
-                  <button class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5 text-left" >
-                    <div class="flex flex-grow items-center justify-between gap-x-6 [max-width:194px]" >
-                      <div class="flex w-16 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
-                        <p>Add to cart</p>
+                <div class="flex flex-col items-center justify-end pt-[6.8px]" >
+                  <div class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5" >
+                    <div class="flex flex-grow items-center justify-between gap-x-4 [max-width:178px]" >
+                      <div class="flex w-24 h-6 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
+                        Add to cart
                       </div>
                       <object
-                        data="/assets/IKlbIconPlus.svg"
+                        data="/assets/IKlbIconPlus6.svg"
                         class="h-4 w-[22px] flex-shrink-0"
                       ></object>
                     </div>
-                  </button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="bg-banner-10jpg max-h-full max-w-full self-stretch bg-no-repeat py-[30px] pl-[30px] pr-10 drop-shadow-lg [background-position:0px_-27.56px] [background-size:100%_114%]" >
+            <div class="bg-[url('banner-10.png')] max-h-full max-w-full self-stretch bg-no-repeat py-[30px] pl-[30px] pr-10 drop-shadow-lg [background-position:0px_-27.56px] [background-size:100%_114%]" >
               <aside class="text-xs font-medium leading-[normal] tracking-[-0.24px] text-orange-600" >
                 Only This Week
               </aside>
@@ -2316,17 +2320,12 @@
                 </footer>
               </div>
               <footer class="flex items-end pt-[19px]">
-                <div class="flex items-center justify-center rounded-[999px] border border-solid border-gray-200 bg-white px-3 py-2" >
-                  <div class="flex flex-col items-center pb-px">
-                    <div class="flex w-20 items-center justify-center gap-x-[5.6px]" >
-                      <div class="flex w-14 flex-shrink-0 items-center justify-center text-center text-xs font-bold leading-[42px] tracking-[-0.24px] text-zinc-800" >
-                        <p>Shop Now</p>
-                      </div>
-                      <object
-                        data="/assets/IKlbIconMoveRight.svg"
-                        class="h-3.5 w-5 flex-shrink-0"
-                      ></object>
-                    </div>
+                <div
+                  class="flex relative gap-1.5 px-3.5 py-2.5 mt-5 leading-4 text-center bg-white border border border-solid rounded-[999px] text-neutral-800"
+                >
+                  <div class="grow font-bold text-sm">Shop Now</div>
+                  <div class="object-contain shrink-0 w-5 aspect-[1.43]"> 
+                    <%= render inline: Rails.root.join('app/assets/images/home1/7617b1dc840862ef77b29ee335526091f13b3d72b2a3174eab974bcd70b281f9?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
                   </div>
                 </div>
               </footer>
@@ -2334,7 +2333,7 @@
           </div>
           <div class="flex flex-col items-start justify-center gap-y-[9.2px] border-r border-solid border-gray-200 px-[15px] pb-[15px] pt-6 font-medium" >
             <div class="flex items-center justify-center self-stretch">
-              <div class="bg-link-1130500x-500jpg flex h-48 max-h-full w-48 max-w-full flex-shrink-0 items-center justify-end gap-x-36 bg-no-repeat pb-44 [background-position:0px_0px] [background-size:100%_100%]" >
+              <div class="bg-[url('1-130-500x500.png')] flex h-48 max-h-full w-48 max-w-full flex-shrink-0 items-center justify-end gap-x-36 bg-no-repeat pb-44 [background-position:0px_0px] [background-size:100%_100%]" >
                 <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-[5px]" >
                   <div class="flex flex-grow flex-col justify-center pb-px pr-[1.7px] [max-width:24px]" >
                     <div class="flex items-center justify-center text-center text-[10px] font-extrabold uppercase leading-[0px] tracking-[-0.32px] text-red-50" >
@@ -2379,25 +2378,25 @@
                 <div class="leading-4 text-gray-900 line-through">$3.38</div>
               </div>
             </div>
-            <div class="flex flex-col items-center pt-[2.8px]">
-              <button class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5 text-left" >
-                <div class="flex flex-grow items-center justify-between gap-x-6 [max-width:193px]" >
-                  <div class="flex w-16 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
-                    <p>Add to cart</p>
+            <div class="flex flex-col items-center justify-end pt-[6.8px]" >
+              <div class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5" >
+                <div class="flex flex-grow items-center justify-between gap-x-4 [max-width:178px]" >
+                  <div class="flex w-24 h-6 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
+                    Add to cart
                   </div>
                   <object
-                    data="/assets/IKlbIconPlus.svg"
+                    data="/assets/IKlbIconPlus6.svg"
                     class="h-4 w-[22px] flex-shrink-0"
                   ></object>
                 </div>
-              </button>
+              </div>
             </div>
           </div>
         </div>
         <div class="flex flex-col items-center justify-center pt-2.5">
           <div class="flex flex-col items-center gap-y-[9.2px] font-medium">
             <div class="flex items-center justify-center">
-              <div class="bg-link-1500x-500jpg- flex h-52 max-h-full w-52 max-w-full flex-shrink-0 items-center justify-end gap-x-36 bg-no-repeat pb-44 [background-position:0px_0px] [background-size:100%_100%]" >
+              <div class="bg-[url('1-500x500.png')] flex h-52 max-h-full w-52 max-w-full flex-shrink-0 items-center justify-end gap-x-36 bg-no-repeat pb-44 [background-position:0px_0px] [background-size:100%_100%]" >
                 <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-[5px]" >
                   <div class="flex flex-grow flex-col justify-center pb-px pr-[1.7px] [max-width:21px]" >
                     <div class="flex items-center justify-center text-center text-[10px] font-extrabold uppercase leading-[0px] tracking-[-0.32px] text-red-50" >
@@ -2442,18 +2441,18 @@
                 <div class="leading-4 text-gray-900 line-through">$17.89</div>
               </div>
             </div>
-            <div class="flex flex-col items-center pt-[2.8px]">
-              <button class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5 text-left" >
-                <div class="flex flex-grow items-center justify-between gap-x-6 [max-width:194px]" >
-                  <div class="flex w-16 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
-                    <p>Add to cart</p>
+            <div class="flex flex-col items-center justify-end pt-[6.8px]" >
+              <div class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5" >
+                <div class="flex flex-grow items-center justify-between gap-x-4 [max-width:178px]" >
+                  <div class="flex w-24 h-6 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
+                    Add to cart
                   </div>
                   <object
-                    data="/assets/IKlbIconPlus.svg"
+                    data="/assets/IKlbIconPlus6.svg"
                     class="h-4 w-[22px] flex-shrink-0"
                   ></object>
                 </div>
-              </button>
+              </div>
             </div>
           </div>
         </div>
@@ -2461,14 +2460,14 @@
     </div>
 
 
-    <div id="firejet-html-app">
+    
       <div class="flex w-full border-b border-solid border-gray-200 pr-[15px]">
         <div class="font-inter flex flex-grow flex-wrap items-center justify-center gap-x-[15px] gap-y-[15px] min-[1350px]:flex-nowrap" >
           <div class="flex flex-grow flex-wrap justify-center self-stretch min-[1350px]:flex-nowrap" >
             <div class="flex flex-grow flex-wrap items-center justify-center gap-x-[15px] gap-y-[15px] min-[1350px]:flex-nowrap" >
               <section class="flex flex-col items-start justify-center gap-y-[9.2px] self-stretch border-r border-solid border-gray-200 px-[15px] pb-[15px] pt-6 font-medium" >
                 <div class="flex items-center justify-center self-stretch">
-                  <div class="bg-link-187500x-500jpg flex h-48 max-h-full w-48 max-w-full flex-shrink-0 flex-col items-end justify-between gap-y-9 bg-no-repeat text-center text-[10px] font-extrabold uppercase leading-[0px] tracking-[-0.32px] [background-position:0px_0px] [background-size:100%_100%]" >
+                  <div class="bg-[url('link-187500x-500jpg')] flex h-48 max-h-full w-48 max-w-full flex-shrink-0 flex-col items-end justify-between gap-y-9 bg-no-repeat text-center text-[10px] font-extrabold uppercase leading-[0px] tracking-[-0.32px] [background-position:0px_0px] [background-size:100%_100%]" >
                     <div class="flex w-48 items-center justify-between gap-x-9">
                       <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-1.5 text-center" >
                         <div class="flex flex-grow flex-col justify-center pr-[1.7px] [max-width:20px]" >
@@ -2528,24 +2527,24 @@
                     </div>
                   </div>
                 </div>
-                <div class="flex flex-col items-center pt-[2.8px]">
-                  <button class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5 text-left" >
-                    <div class="flex flex-grow items-center justify-between gap-x-6 [max-width:193px]" >
-                      <div class="flex w-16 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
-                        <p>Add to cart</p>
+                <div class="flex flex-col items-center justify-end pt-[6.8px]" >
+                  <div class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5" >
+                    <div class="flex flex-grow items-center justify-between gap-x-4 [max-width:178px]" >
+                      <div class="flex w-24 h-6 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
+                        Add to cart
                       </div>
                       <object
-                        data="/assets/IKlbIconPlus.svg"
+                        data="/assets/IKlbIconPlus6.svg"
                         class="h-4 w-[22px] flex-shrink-0"
                       ></object>
                     </div>
-                  </button>
+                  </div>
                 </div>
               </section>
               <div class="flex flex-col items-center justify-center pt-2.5">
                 <section class="flex flex-col items-start gap-y-[9.2px] font-medium" >
                   <div class="flex items-center justify-center self-stretch">
-                    <div class="bg-link-130500x-500jpg flex h-52 max-h-full w-52 max-w-full flex-shrink-0 flex-col items-end justify-between gap-y-9 bg-no-repeat text-center text-[10px] font-extrabold uppercase leading-[0px] tracking-[-0.32px] [background-position:0px_0px] [background-size:100%_100%]" >
+                    <div class="bg-[url('link-1500x-500jpg')] flex h-52 max-h-full w-52 max-w-full flex-shrink-0 flex-col items-end justify-between gap-y-9 bg-no-repeat text-center text-[10px] font-extrabold uppercase leading-[0px] tracking-[-0.32px] [background-position:0px_0px] [background-size:100%_100%]" >
                       <div class="flex w-52 items-center justify-between gap-x-9" >
                         <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-1.5 text-center" >
                           <div class="flex flex-grow flex-col justify-center pr-[1.7px] [max-width:21px]" >
@@ -2616,22 +2615,22 @@
                       </div>
                     </div>
                   </div>
-                  <div class="flex flex-col items-center pt-[2.8px]">
-                    <button class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5 text-left" >
-                      <div class="flex flex-grow items-center justify-between gap-x-6 [max-width:194px]" >
-                        <div class="flex w-16 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
-                          <p>Add to cart</p>
+                  <div class="flex flex-col items-center justify-end pt-[6.8px]" >
+                    <div class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5" >
+                      <div class="flex flex-grow items-center justify-between gap-x-4 [max-width:178px]" >
+                        <div class="flex w-24 h-6 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
+                          Add to cart
                         </div>
                         <object
-                          data="/assets/IKlbIconPlus.svg"
+                          data="/assets/IKlbIconPlus6.svg"
                           class="h-4 w-[22px] flex-shrink-0"
                         ></object>
                       </div>
-                    </button>
+                    </div>
                   </div>
                 </section>
               </div>
-              <div class="bg-banner-11jpg max-h-full max-w-full self-stretch bg-no-repeat py-[30px] pl-[30px] pr-10 [background-position:0px_-27.56px] [background-size:100%_114%]" >
+              <div class="bg-[url('banner-11.png')] max-h-full max-w-full self-stretch bg-no-repeat py-[30px] pl-[30px] pr-10 [background-position:0px_-27.56px] [background-size:100%_114%]" >
                 <div class="text-xs font-medium leading-[normal] tracking-[-0.24px] text-orange-600" >
                   Only This Week
                 </div>
@@ -2649,25 +2648,20 @@
                   </div>
                 </div>
                 <div class="flex items-end pt-[19px]">
-                  <div class="flex items-center justify-center rounded-[999px] border border-solid border-gray-200 bg-white px-3 py-2" >
-                    <div class="flex flex-col items-center pb-px">
-                      <div class="flex w-20 items-center justify-center gap-x-[5.6px]" >
-                        <div class="flex w-14 flex-shrink-0 items-center justify-center text-center text-xs font-bold leading-[42px] tracking-[-0.24px] text-zinc-800" >
-                          <p>Shop Now</p>
-                        </div>
-                        <object
-                          data="/assets/IKlbIconMoveRight.svg"
-                          class="h-3.5 w-5 flex-shrink-0"
-                        ></object>
-                      </div>
-                    </div>
+                <div
+                  class="flex relative gap-1.5 px-3.5 py-2.5 mt-5 leading-4 text-center bg-white border border border-solid rounded-[999px] text-neutral-800"
+                >
+                  <div class="grow font-bold text-sm">Shop Now</div>
+                  <div class="object-contain shrink-0 w-5 aspect-[1.43]"> 
+                    <%= render inline: Rails.root.join('app/assets/images/home1/7617b1dc840862ef77b29ee335526091f13b3d72b2a3174eab974bcd70b281f9?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
                   </div>
+                </div>
                 </div>
               </div>
             </div>
             <section class="flex flex-col items-start justify-center gap-y-[9.2px] border-r border-solid border-gray-200 px-[15px] pb-[15px] pt-6 font-medium" >
               <div class="flex items-center justify-center self-stretch">
-                <div class="bg-link-127500x-500jpg flex h-48 max-h-full w-48 max-w-full flex-shrink-0 flex-col items-end justify-end gap-y-40 bg-no-repeat pb-[5px] [background-position:0px_0px] [background-size:100%_100%]" >
+                <div class="bg-[url('1-27-500x500.png')] flex h-48 max-h-full w-48 max-w-full flex-shrink-0 flex-col items-end justify-end gap-y-40 bg-no-repeat pb-[5px] [background-position:0px_0px] [background-size:100%_100%]" >
                   <div class="flex w-48 items-center justify-between gap-x-8">
                     <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-1.5" >
                       <div class="flex flex-grow flex-col justify-center pr-[1.7px] [max-width:23px]" >
@@ -2720,25 +2714,25 @@
                   <div class="leading-4 text-gray-900 line-through">$4.50</div>
                 </div>
               </div>
-              <div class="flex flex-col items-center pt-[2.8px]">
-                <button class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5 text-left" >
-                  <div class="flex flex-grow items-center justify-between gap-x-6 [max-width:193px]" >
-                    <div class="flex w-16 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
-                      <p>Add to cart</p>
+              <div class="flex flex-col items-center justify-end pt-[6.8px]" >
+                <div class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5" >
+                  <div class="flex flex-grow items-center justify-between gap-x-4 [max-width:178px]" >
+                    <div class="flex w-24 h-6 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
+                      Add to cart
                     </div>
                     <object
-                      data="/assets/IKlbIconPlus.svg"
+                      data="/assets/IKlbIconPlus6.svg"
                       class="h-4 w-[22px] flex-shrink-0"
                     ></object>
                   </div>
-                </button>
+                </div>
               </div>
             </section>
           </div>
           <div class="flex flex-col items-center justify-center pt-2.5">
             <section class="flex flex-col items-start gap-y-[9.2px] font-medium" >
               <div class="flex items-center justify-center self-stretch">
-                <div class="bg-link-125500x-500jpg flex h-52 max-h-full w-52 max-w-full flex-shrink-0 flex-col items-end justify-end gap-y-40 bg-no-repeat pb-[5px] [background-position:0px_0px] [background-size:100%_100%]" >
+                <div class="bg-[url('1-25-500x500.png')] flex h-52 max-h-full w-52 max-w-full flex-shrink-0 flex-col items-end justify-end gap-y-40 bg-no-repeat pb-[5px] [background-position:0px_0px] [background-size:100%_100%]" >
                   <div class="ml-[5px] flex w-52 items-center justify-between gap-x-9" >
                     <div class="flex items-center justify-center rounded-l-[14px] rounded-r-[40px] bg-red-600 px-2 py-1.5" >
                       <div class="flex flex-grow flex-col justify-center pr-[1.7px] [max-width:23px]" >
@@ -2791,34 +2785,25 @@
                   <div class="leading-4 text-gray-900 line-through">$2.75</div>
                 </div>
               </div>
-              <div class="flex flex-col items-center pt-[2.8px]">
-                <button class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5 text-left" >
-                  <div class="flex flex-grow items-center justify-between gap-x-6 [max-width:194px]" >
-                    <div class="flex w-16 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
-                      <p>Add to cart</p>
+              <div class="flex flex-col items-center justify-end pt-[6.8px]" >
+                <div class="flex items-center justify-center rounded-[999px] border border-solid border-x-[darkslateblue] border-y-[darkslateblue] py-2 pl-3.5 pr-2.5" >
+                  <div class="flex flex-grow items-center justify-between gap-x-4 [max-width:178px]" >
+                    <div class="flex w-24 h-6 flex-shrink-0 items-center text-[13px] leading-[42px] tracking-[-0.26px] text-[darkslateblue]" >
+                      Add to cart
                     </div>
                     <object
-                      data="/assets/IKlbIconPlus.svg"
+                      data="/assets/IKlbIconPlus6.svg"
                       class="h-4 w-[22px] flex-shrink-0"
                     ></object>
                   </div>
-                </button>
+                </div>
               </div>
             </section>
           </div>
         </div>
       </div>
-    </div>
+    
 
-
-      <div
-        class="flex relative shrink-0 -mb-20 border border-b h-[403px] max-md:mb-2.5 max-md:max-w-full"
-      ></div>
-    </div>
-    <div class="flex flex-col pt-12 mx-2.5 border border-b max-md:max-w-full">
-      <div
-        class="flex z-10 shrink-0 mb-0 rounded-none border border-r border-b border-l h-[409px] max-md:mb-2.5 max-md:max-w-full"
-      ></div>
     </div>
     <div
       class="flex overflow-hidden px-8 mx-2.5 mt-7 bg-orange-50 rounded-md border border-orange-100 border-solid max-md:px-5"
@@ -2847,23 +2832,25 @@
         class="object-contain aspect-[6.76] w-[573px] max-md:max-w-full"
       />
     </div>
-    <div class="flex gap-5 self-start mt-10 ml-2.5">
-      <div class="grow text-lg font-bold tracking-tight text-gray-950">
-        Popular Companies
+    <div class="flex flex-wrap gap-5 justify-between mt-8 mr-4 ml-2.5 max-md:mr-2.5 max-md:max-w-full">
+      <div class="flex flex-wrap gap-4 self-start mt-1.5">
+        <div class="grow text-lg font-bold tracking-tight text-gray-950">
+          Popular Companies
+        </div>
+        <div class="flex-auto my-auto text-sm tracking-tight text-gray-400">
+          Some of the new products arriving this weeks
+        </div>
       </div>
-      <div class="flex-auto my-auto text-sm tracking-tight text-gray-400">
-        Some of the new products arriving this weeks
+      <div
+        class="flex gap-1.5 self-end px-3.5 py-2.5 text-xs font-bold tracking-tight leading-4 text-center bg-white border border border-solid rounded-[999px] text-neutral-800 max-md:mr-2.5"
+      >
+        <div class="grow my-auto">View All</div>
+        <div class="object-contain shrink-0 w-5 aspect-[1.43]"> 
+          <%= render inline: Rails.root.join('app/assets/images/home1/e5f1debcbc67d330b171c497b94dd479ee83cec4ae86cb19f20dc0105fa3fb3e?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
+        </div>
       </div>
     </div>
-    <div
-      class="flex gap-1.5 self-end px-3.5 py-2.5 text-xs font-bold tracking-tight leading-4 text-center bg-white border border border-solid rounded-[999px] text-neutral-800 max-md:mr-2.5"
-    >
-      <div class="grow my-auto">View All</div>
-       <div class="object-contain shrink-0 w-5 aspect-[1.43]"> 
-        <%= render inline: Rails.root.join('app/assets/images/home1/e5f1debcbc67d330b171c497b94dd479ee83cec4ae86cb19f20dc0105fa3fb3e?placeholderIfAbsent=true&apiKey=71f8a32b6aae48788135afe3842580ab').read %>
-        
-      </div>
-    </div>
+   
     <div class="mx-2.5 max-md:max-w-full">
       <div class="flex gap-5 max-md:flex-col">
         <div class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
