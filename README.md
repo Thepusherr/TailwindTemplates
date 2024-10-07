@@ -23,11 +23,11 @@ Things you may want to cover:
 
 * ...
 
-![img](https://raw.githubusercontent.com/Thepusherr/InstagramRails/master/.github/img1.png)
-![img](https://raw.githubusercontent.com/Thepusherr/InstagramRails/master/.github/img2.png)
-![img](https://raw.githubusercontent.com/Thepusherr/InstagramRails/master/.github/img3.png)
-![img](https://raw.githubusercontent.com/Thepusherr/InstagramRails/master/.github/img4.png)
-![img](https://raw.githubusercontent.com/Thepusherr/InstagramRails/master/.github/img5.png)
-![img](https://raw.githubusercontent.com/Thepusherr/InstagramRails/master/.github/img6.png)
+![img](https://raw.githubusercontent.com/Thepusherr/TailwindTemplates/master/.github/img1.png)
+![img](https://raw.githubusercontent.com/Thepusherr/TailwindTemplates/master/.github/img2.png)
+![img](https://raw.githubusercontent.com/Thepusherr/TailwindTemplates/master/.github/img3.png)
+![img](https://raw.githubusercontent.com/Thepusherr/TailwindTemplates/master/.github/img4.png)
+![img](https://raw.githubusercontent.com/Thepusherr/TailwindTemplates/master/.github/img5.png)
+![img](https://raw.githubusercontent.com/Thepusherr/TailwindTemplates/master/.github/img6.png)
 
 
